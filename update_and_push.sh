@@ -2,7 +2,7 @@
 
 # Run after removing old images
 
-version=8
+version=10
 subversion=0
 
 docker build --build-arg "DOTNET_VERSION=$version" --target sdk --tag vojtechkursa/dotnet:sdk-$version.$subversion-alpine .
